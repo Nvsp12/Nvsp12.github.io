@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    background: url(../img/bgwood.jpg) no-repeat center center fixed;
+    margin: auto;
+    padding-top: 50px;
+}
+.main {
+    width: 75%;
+    height: 90%;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 3px 5px rgba(139, 69, 19, 0.3);
+    margin: auto;
+    background-color: white;
+}
+
+@media only screen and (max-width: 200px) {
+
+
+    .main {
+        background-color: blue;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+
+    .main {
+        background-color: purple;
+    }
+
+
+}
